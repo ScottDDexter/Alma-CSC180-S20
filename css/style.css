@@ -48,6 +48,11 @@ body {
 
 /* small-chunk styling classes */
 
+h1 {
+    font-family: 'LinuxLibertineDisplayORegular', serif;
+    margin: 0.5em 0em;
+    font-size:175%;
+}
 H2 {
     font-family: 'LinuxLibertineDisplayORegular', serif;
     margin: 0.5em 0em;
@@ -191,4 +196,8 @@ p {
 
 p:first-child {
     margin-top:0px;
+}
+
+img {
+  margin: 20px 0px;
 }

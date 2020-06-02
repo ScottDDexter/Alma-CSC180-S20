@@ -1,36 +1,251 @@
- <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <!-- Always force latest IE rendering engine & Chrome Frame -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <meta http-equiv="cleartype" content="on"/>
+ <html lang="en"> <head> <meta charset="utf-8"/> <!-- Always force latest IE
+ rendering engine & Chrome Frame --> <meta http-equiv="X-UA-Compatible"
+ content="IE=edge,chrome=1"/> <meta http-equiv="cleartype" content="on"/>
 
-  <!-- Responsive and mobile friendly stuff -->
-  <meta name="HandheldFriendly" content="True"/>
-  <meta name="MobileOptimized" content="320"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Responsive and mobile friendly stuff --> <meta name="HandheldFriendly"
+  content="True"/> <meta name="MobileOptimized" content="320"/> <meta
+  name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="css/html5reset.css" media="all"/>
-  <link rel="stylesheet" type="text/css" href="css/col.css" media="all"/>
-  <link rel="stylesheet" type="text/css" href="css/3cols.css" media="all"/>
+  <!-- Stylesheets --> <link rel="stylesheet" type="text/css"
+  href="css/html5reset.css" media="all"/> <link rel="stylesheet" type="text/css"
+  href="css/col.css" media="all"/> <link rel="stylesheet" type="text/css"
+  href="css/3cols.css" media="all"/>
 
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-
 
   <title>Unit 4</title>
 
 </head>
 
 <body>
-    <main>
-  <div class="section group">
-    <div class="coursename span_3_of_3">
-      <h1>Unit 4: Web Development for Accessibility</h1>
+  <main>
+    <div class="section group"> <div class="coursename span_3_of_3">
+<h1>Unit 4: Web Development for Accessibility</h1>
+
+<p>In this unit, we'll get into a little more detail on the web development
+front. We'll both study some existing websites, looking for accessibility
+features and obstacles, and we'll do some basic web design (by working with HTML
+directly, as well as possibly CSS--don't worry, you don't need to know what
+those are). The main goals here are for you to</p>
+
+<ul> <li>    Acquire some basic skills/tools/knowledge around web design <li>
+Acquire deeper knowledge about how design choices affect accessibility </ul>
+
+<h4>For <em>Day 11</em> [Monday, May 11]</h4>
+
+<p>For this unit, we'll draw from part of the <i>Mozilla Developer</i>
+<i>Network</i> curriculum (Mozilla are the people that bring you the Firefox
+browser, and other useful tools).</p> <p>In particular, we'll dip into parts of
+their "<a href="https://developer.mozilla.org/en-US/docs/Learn">Learn web
+development"</a> tutorial. To prepare, from Monday, please:</p> <ul> <li>Create
+a (free) account on github.com (that's "git-hub" not "gith-ub"), if you don't
+have one already. Be sure to choose a username that you'd be comfortable sharing
+in a professional context.</li> <li><del>Download and install <a
+href="https://code.visualstudio.com/">Visual Studio Code</a> (if you already
+have a code editor you like, you can probably use that; VS Code is nice because
+it's pretty stripped down)</del>Install <a href="https://atom.io/">Atom</a>, a
+code editor that makes working with HTML, CSS, and github pretty easy.</li>
+<li>Read this short item on "<a
+href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works">How
+the Web Works</a>"&mdash;it's a quick overview of the important ideas. (Some CS
+majors may have seen this stuff before, but not necessarily all!)</li> <li>Read
+and annotate the two introductory pages posted in this unit. (The annotation is
+mainly so we all have a sense of the different previous experience we're coming
+with.)<br></li> <li>If you like, read around the tutorial website; don't
+<i>do</i> anything yet, though, beyond what I list here.<br></li> </ul>
+
+<h5>Annotation Activity 1</h5>
+
+<p>Read the page on <a
+href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">"Dealing
+with Files"</a> carefully. If you like, follow along with the
+instructions&mdash;particularly if this feels a little unfamiliar to you. I'm
+sure you know, like, what a file is, but this article talks about how and why we
+need to think about their organization a little more carefully. In "normal"
+life, we mostly don't have to think too much about how the files on our
+computers are organized, but when we start doing web development (or software
+development in general), the arrangement of our files becomes <i>very</i>
+important.&nbsp;</p> <p>Annotate anything you read that makes you think</p>
+<ul><li>uhhh I don't really know what they're talking about, or</li> <li>oh, I
+didn't know that before (but I get it).&nbsp;</li> </ul> <p>Please be sure to
+tag the first kind of annotations as <strong>question</strong> so I know to talk
+about it in class (if there aren't any question tags, I'll not waste class time
+on this). Don't be bashful about questions....<br></p>
+
+<h5>Annotation Activity 2</h5>
+
+<p>I know there is a range of previous experience with HTML in this class. If
+you have <i>no</i> previous experience, this might be a little bit challenging;
+if you have a lot of experience, it will probably be a quick read. Both of those
+are totally normal/expected. This article on <a
+href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">"HTML
+Basics"</a> is intended for beginners, but it still uses some technical language
+that's not always perfectly defined. </p>
+
+<p>Again, you might want to follow along (starting with the section "Anatomy of
+an HTML document," but if it's not working for you, we'll do some similar stuff
+in class.</p> <p>Annotate anything you read that makes you think</p>
+<ul>
+<li>uhhh I don't really know what they're talking about, or</li>
+<li>oh, I
+didn't know that before (but I get it).&nbsp;</li>
+</ul>
+<p>Please be sure to <b>tag</b> the first kind of annotations as <strong>question</strong> so I know to talk about it in class (if there aren't any question tags, I'll not waste
+class time on this). Don't be bashful about  questions....</p>
+
+<h4>For <em>Day 12</em> [Tuesday, May 12]</h4>
+
+<p>Indeed, as promised, there are two things I'd like you to work on before class on Tuesday. (If you get stuck, let me know; I'm more interested in getting people "up to speed" before class than in whether you can figure everything out by yourself.)</p>
+
+<p>
+  First, set up a nearly empty website on github. To do that:
+</p>
+<ol>
+  <li><a href="https://dannguyen.github.io/github-for-portfolios/lessons/setup-github/">Follow this lesson on setting up github</a>. You should already have an account created, so pick up after that point. Note there are a couple new terms floating around (which you may have already seen before), like repository and commit and maybe Markdown. For now don't worry about the deep meanings of those terms, and just follow the instructions obediently :). (What you see on github maybe be slightly different from what's described, but I think you'll be able to follow along. Again, let me know if something gets confusing.</li>
+
+<li>Then continue with this <a href="https://dannguyen.github.io/github-for-portfolios/lessons/deploy-github-pages/">lesson on publishing web pages with Github Pages</a>. You can skip over the discussion on "Web Publishing 101," if you like, as we kinda talked about it in Monday's class. Pick up with the chunk that starts, "To get a proper webpage, with real HTML and all that..." Once your Github Pages homepage is up and running, you're good (you can read about "Web publishing with ease and brevity if you like, but it's not directly relevant to us!</li>
+</ol>
+
+<p>Now, open Atom and make sure you have your GitHub account pulled up in a browser, because we'll be connected Atom with your GitHub website. These instructions are on <a href="atomgithub.html">this page</a>.</p>
 
 
-    </div>
-  </div>
+<h4>For <em>Day 13</em> [Wednesday, May 13]</h4>
+
+<p>To prepare for today's class, I'd like you to read more about HTML
+from the "MDN web docs" lessons. As before, I'd like you to annotate  these with
+questions and so forth, so that I can shape Wednesday's class to advance your
+understanding. Because there are a handful of pages in  this lesson, and it
+feels a little unnatural to set up a separate  "annotation activity" for each
+one, please use the "Discovery" group for your annotations. (So, you'll just
+follow the links below, as usual,  but that make sure that hypothes.is is
+"turned on" in your browser for  your annotations.)</p>
+<p>Specifically, we'll go through most of the "<a
+href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">Introduction
+to HTML</a>" lesson:</p>
+<ul>
+  <li>"<a
+href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">Getting
+Started with HTML</a>" starts off a lot like the "HTML Basics" we looked at for
+Monday, but it goes into some more depth.</li>
+<li>"<a
+href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML">What's
+in the head? Metadata in HTML</a>" touches on some important accessibility
+considerations (and other nifty things). The "Active learning: Inspecting a
+simple example" section is a waste of time and not very helpful; we'll cover
+that section in class.<br></li>
+<li>"<a
+href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals">HTML
+text fundamentals</a>" is where it all starts happening. Pay attention to the
+use of the word <i>semantics</i>, which you may have used in other kinds of
+classes; it has a similar meaning here but it's not <i>quite</i> the
+same.</li>
+<li>"<a
+href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks">Creating
+hyperlinks</a>" is a more complex topic than you might think ;)
+<br></li>
+</ul>
+<p>The rest of the articles in this lesson are super-useful and
+clear, but we  don't have time to look at every part of HTML. I definitely
+encourage  you at least to skim them, especially if you think you might be doing
+more web design kinds of things in the future.</p>
+<p>But, do look at this part of the MDN Accessibility lesson:</p>
+<ul>
+  <li>"<a
+href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML">HTML: A
+good basis for accessibility</a>". This article does use some HTML elements from
+the articles I just told  you to skim, so don't panic when you encounter
+something unfamiliar.  It's got some great examples of good and bad HTML (from
+an accessibility perspective), as well as some very good
+guidance.<br></li>
+</ul>
+<p>You might also get something out of their introductory
+"<a
+href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility">What
+is  accessibility?</a>" article (if you haven't read it already). We've already
+seen a lot of these ideas, but there are some interesting new
+points.</p>
+
+<h5>Summary of Atom and GitHub concepts</h5>
+<p>Here's a quick summary of the steps for working with GitHub in Atom.
+For our purposes, you can stop after "Publish and push," though I might
+talk about "Fetch and pull" today.</p><p><a href="https://flight-manual.atom.io/using-atom/sections/github-package/">https://flight-manual.atom.io/using-atom/sections/github-package/</a></p>
+<p>A short video (featuring some kind of Bob Ross guy) that goes over the Atom
+ stuff we did in class (you can ignore the stuff he's showing in the
+bottom-middle of his Atom screen).<br></p>
+<p><a href="https://www.youtube.com/watch?v=sb5o2WiNb-A">https://www.youtube.com/watch?v=sb5o2WiNb-A</a></p>
+<p>And
+ finally, a couple slightly longer videos (~25 minutes total, unless you
+ speed them up) that talk about why git is useful, and goes over some of
+ the concepts like "commit."</p>
+ <p> (A couple notes: <em>github</em> is a web-based software collaboration system that uses the tool called <em>git</em> as its "engine." This is why in Atom we see both "Git" and "GitHub" tabs. Most of our actions are actually <i>git</i> actions, but they're acting <em>on</em> our GitHub repository (which causes our github.io website to be published. These two videos focus on the <em>git</em> aspects, and don't talk about either GitHub or Atom&mdash;but I think they do a pretty good job explaining what commit, etc, mean&mdash;and you also see a little bit of web-design-person work in action.)</p>
+ <p>Part 1: <a href="https://www.youtube.com/watch?v=9GKpbI1siow">https://www.youtube.com/watch?v=9GKpbI1siow</a></p>
+ <p>Part 2: <a href="https://www.youtube.com/watch?v=n-p1RUmdl9M">https://www.youtube.com/watch?v=n-p1RUmdl9M</a></p>
+
+ <h5>By Monday</h5>
+
+<p> By 9am Monday, you should have (a) posted your github username in the forum, so I know where to find your webpage, and (b) successfully published a basic professional-presence website for yourself. It should include at least one image, at least five links, and have an external stylesheet that gives the page a reasonable professional appearance. I'll give you further instructions about reviewing everyone's sites before Monday's class.</p>
+
+<h4>For <em>Day 14</em> [Thursday, May 14]</h4>
+
+<p>As I said, there's actually a <i>lot</i> to CSS, and a lot of fairly deep understanding required in order to really know how to work with it (I do not have sufficiently deep understanding). For our purposes, even the "CSS First Steps" module is more than we quite need--but if you're interested in web design, you might want to read all the way through.</p>
+<p>Anyway, please read and annotate the first three parts of the module:</p>
+<ul>
+  <li>"<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS">What is CSS?</a>" is a brief description (and helps get at why CSS is distinct from HTML).&nbsp;</li>
+  <li>"<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started">Getting Started with CSS</a>" focuses on the different ways you can <i>select</i> the elements of a page that a rule applies to. Give yourself some time with this; as usual, focus on getting a handle on the concepts and worry less about the details of the CSS language. This is the 'heaviest' of the three readings, I think.<br></li>
+  <li>"H<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured">ow CSS is Structured</a>" reviews some of the stuff I discussed (like external stylesheets), and adds a few extra concepts (like "shorthand" and "at-rules"). <br></li>
+</ul>
+<p>Also read and annotate the CSS discussion in <br></p>
+<ul>
+  <li>"<a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript">CSS and JavaScript accessibility</a>"--some of the accessibility concepts will be pretty clear, and relate to CSS discussed in the readings; some concepts refer to more advanced CSS usage, which is at least interesting to see and think about.<br></li>
+</ul>
+<p>You do <i>not</i> need to read "How CSS Works," but some of you might be interested in this behind-the-scenes discussion.</p>
+<p>Finally, the discussion of "<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">Images in HTML</a>" may be helpful to you, but you don't need to annotate it. I'm happy to talk about in class on Thursday, though.<br></p>
+
+<h5>HTML and CSS Resources</h5>
+
+<p>The main thing: experiment like crazy! Try stuff; if it doesn't work, see if you can figure out why. This is the process by which you're actually going to learn stuff about HTML and CSS. If things don't work the way you expect, try to get <em>curious</em> instead of <em>frustrated</em>. (Which can be difficult, believe me.)<br></p>
+<p>If your HTML is not behaving the way you think it should, it could because you have a punctuation/spelling problem somewhere. One useful tool is the <a href="https://validator.w3.org/">Markup Validation Service</a>: put in the address of your page (or any page), and this will tell you all the problems it can find.</p>
+<p>MDN provides a useful set of <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">HTML</a> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Referencehttps://developer.mozilla.org/en-US/docs/Web/HTML/Reference">reference pages</a>. They're organized both by <em>element</em> and by <i>attribute</i> (many elements use the same kinds of attributes). You can use this both to get a deeper understanding of the elements we've discussed and to discover useful elements we haven't discussed.</p>
+<p>They also have a comprehensive set of<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"> CSS reference pages</a>. There is a <i>lot</i> here. You might find the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index">alphabetical index of properties</a> useful (like, what are my options for the <strong>font-family</strong> property?) Also, the summary of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Selectors">selectors</a>. (Again, there's a lot of stuff here; certainly more than I have a grasp of. So, "Wow, that's amazing, glad I don't have to wrap my head around all that this weekend," is a good attitude.)<br></p>
+<p>If you want your page to have a non-default structure--which is to say, if one column doesn't suit your needs--you may want to look through the article on "<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Document and website structure</a>." This article also has some tips on planning a website that you might find useful. Note that they also have example HTML and CSS in this article; they've <a href="https://github.com/mdn/learning-area/tree/master/html/introduction-to-html/document_and_website_structure">shared it on Github here</a>; you might find both the HTML and the CSS interesting. (And yes, there is more HTML/CSS here than we have explicitly discussed--this is all totally optional, but you're very welcome to explore it, and I'm happy to do my best to answer questions.) But I'll caution that getting full control over your layout requires a pretty sophisticated understanding of CSS.<br></p>
+<p>If you want to display tables of information, check out the module on "<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables">HTML Tables</a>" (note that there's a 'basic' and 'advanced' article; be sure you check out the advanced one for accessibility tips). Again, you may want to check out the example code they've shared to Github.<br></p>
+
+<h4>For <em>Day 16</em> [Monday, May 18]</h4>
+
+<p>Use the questions below to review three classmates' webpages, and post your responses to the forum.</p>
+
+<h6>HTML and CSS</h6>
+
+<p>Does the site use HTML correctly—that is, to create the <em>structure</em>
+of the page? If not, what problems do you see?</p>
+
+<p>Did the site designer use any HTML the assigned readings
+didn’t use?</p>
+
+<p>Is CSS used to control the <i=em>appearance</em> of the page,
+its <em>layout</em>, or both? </p>
+
+<p>What kinds of CSS selectors does the designer use? (e.g.
+element/type, class, id, or various “combinators”)</p>
+
+<h6>Accessibility</h6>
+
+<p>Do all images have “alt text”? </p>
+
+<p>Does the CSS enhance (rather than mess with) the site’s
+accessibility?</p>
+
+<p>Could any of the accessibility guidelines in the <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML">MDN
+Accessible HTML article</a> be applied to this site? Explain.</p>
+
+<h6>Summary</h6>
+
+<p>In general, does the site have a professional appearance?
+What is the strongest aspect of its appearance? </p>
+
+<p>In general, what improvements could you suggest to the site?</p>
+
+    </div> </div>
   </main>
 </body>
 </html>
